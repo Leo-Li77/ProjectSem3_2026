@@ -1,0 +1,37 @@
+# virtual environments
+.venv/
+venv/
+env/
+
+# python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+build/
+dist/
+*.egg-info/
+
+# model weights: large and reproducible from  python -m soilcast train
+models/*.pt
+models/*.pth
+
+# web console runtime state
+data/history.db
+data/history.db-journal
+
+# raw downloads of external data: large, refetchable with
+#   python -m soilcast ambient
+# The reduced 24-row table (ambient.csv) is kept, so the pipeline runs offline.
+data/external/*.zip
+data/external/*.txt
+
+# secrets
+raspberry_pi_config.txt
+.env
+
+# editors and os
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
