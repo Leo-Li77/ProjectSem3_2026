@@ -39,7 +39,7 @@ one before starting a run.
 
 | Part | Connection | Note |
 |---|---|---|
-| Raspberry Pi 4 | — | any model with a 40-pin header works |
+| Raspberry Pi 5 | — | any model with a 40-pin header works |
 | FC-28 soil moisture probe | see the table above | the module has both outputs |
 | ADS1115 ADC | I2C: SDA GPIO2, SCL GPIO3, ADDR to GND (0x48) | only for the analog wiring |
 | Potted plant | — | not watered for the duration of the run |
